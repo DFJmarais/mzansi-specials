@@ -1,0 +1,89 @@
+workflows:
+  ios-workflow:
+    name: iOS Build
+    instance_type: mac_mini_m1
+    max_build_duration: 60
+    environment:
+      ios_signing:
+        provisioning_profiles:
+          - name: mzansi_provisioning_profile
+      vars:
+        XCODE_WORKSPACE: "ios/App/App.xcworkspace"
+        XCODE_SCHEME: "App"
+        BUNDLE_ID: "com.mzansispecials.app"
+    scripts:
+      - name: Install dependencies
+        script: |
+          pnpm install
+      - name: Build web assets
+        script: |
+          pnpm build
+      - name: Sync Capacitor
+        script: |
+          npx cap sync ios
+      - name: Install pods
+        script: |
+          cd ios/App
+          pod install
+      - name: Build iOS app
+        script: |
+          cd ios/App
+          xcodebuild -workspace App.xcworkspace \
+            -scheme App \
+            -configuration Release \
+            -derivedDataPath build \
+            -archivePath build/App.xcarchive \
+            archive
+      - name: Export IPA
+        script: |
+          cd ios/App
+          xcodebuild -exportArchive \
+            -archivePath build/App.xcarchive \
+            -exportOptionsPlist exportOptions.plist \
+            -exportPath build/output
+    artifacts:
+      - ios/App/build/output/**/*.ipa
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+
+  android-workflow:
+    name: Android Build
+    instance_type: linux_x2
+    max_build_duration: 60
+    environment:
+      android_signing:
+        - keystore_reference: mzansi_keystore
+          key_alias: mzansi-release
+          key_password: $KEYSTORE_PASSWORD
+          store_password: $KEYSTORE_PASSWORD
+      vars:
+        JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64
+    scripts:
+      - name: Install dependencies
+        script: |
+          pnpm install
+      - name: Build web assets
+        script: |
+          pnpm build
+      - name: Sync Capacitor
+        script: |
+          npx cap sync android
+      - name: Build Android App Bundle
+        script: |
+          cd android
+          chmod +x gradlew
+          ./gradlew bundleRelease
+      - name: Build Android APK
+        script: |
+          cd android
+          ./gradlew assembleRelease
+    artifacts:
+      - android/app/build/outputs/bundle/release/**/*.aab
+      - android/app/build/outputs/apk/release/**/*.apk
+    publishing:
+      google_play:
+        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+        track: internal
+        submit_as_draft: true
