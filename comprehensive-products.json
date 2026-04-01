@@ -1,0 +1,424 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Full Cream Milk 1L",
+      "category": "Dairy",
+      "subcategory": "Milk",
+      "image": "https://images.unsplash.com/photo-1585238341710-4b4e6a7dd188?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 18.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 19.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 20.49, "inStock": false, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 21.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 17.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Full Cream Milk 2L",
+      "category": "Dairy",
+      "subcategory": "Milk",
+      "image": "https://images.unsplash.com/photo-1585238341710-4b4e6a7dd188?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 35.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 37.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 38.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 40.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 34.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Low Fat Milk 1L",
+      "category": "Dairy",
+      "subcategory": "Milk",
+      "image": "https://images.unsplash.com/photo-1585238341710-4b4e6a7dd188?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 16.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 17.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 18.49, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 19.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 15.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Clover Butter 500g",
+      "category": "Dairy",
+      "subcategory": "Butter & Spreads",
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07f4ee?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 42.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 44.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 42.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 48.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 41.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Rainbow Margarine 500g",
+      "category": "Dairy",
+      "subcategory": "Butter & Spreads",
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07f4ee?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 24.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 26.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 24.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 28.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 23.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Eggs Dozen (Large)",
+      "category": "Dairy",
+      "subcategory": "Eggs",
+      "image": "https://images.unsplash.com/photo-1582722872981-82a18b94e22b?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 24.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 24.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 26.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 28.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 23.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cheddar Cheese 200g",
+      "category": "Dairy",
+      "subcategory": "Cheese",
+      "image": "https://images.unsplash.com/photo-1452894895917-7f1be7f3c1ca?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 32.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 34.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 36.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 38.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 31.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Plain Yogurt 500ml",
+      "category": "Dairy",
+      "subcategory": "Yogurt",
+      "image": "https://images.unsplash.com/photo-1488459716781-6918f33427d7?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 19.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 19.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 21.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 19.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 18.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Chicken Breast 1kg",
+      "category": "Meat",
+      "subcategory": "Poultry",
+      "image": "https://images.unsplash.com/photo-1488459716781-6918f33427d7?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 54.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 59.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 64.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 69.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 52.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Beef Steak 500g",
+      "category": "Meat",
+      "subcategory": "Beef",
+      "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 89.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 89.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 99.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 109.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 85.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ground Beef 500g",
+      "category": "Meat",
+      "subcategory": "Beef",
+      "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 59.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 64.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 69.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 74.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 57.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Pork Chops 500g",
+      "category": "Meat",
+      "subcategory": "Pork",
+      "image": "https://images.unsplash.com/photo-1585238341710-4b4e6a7dd188?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 69.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 74.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 79.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 84.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 67.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Fish Fillet 400g",
+      "category": "Meat",
+      "subcategory": "Seafood",
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 79.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 84.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 79.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 89.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 77.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Tomatoes 1kg",
+      "category": "Produce",
+      "subcategory": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 12.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 11.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 14.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 9.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 13.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Carrots 1kg",
+      "category": "Produce",
+      "subcategory": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1447521041e3b522c1e73c5e8d5e4e8?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 11.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 11.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 13.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 9.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 12.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Onions 1kg",
+      "category": "Produce",
+      "subcategory": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1585518419759-8b0b6e1e3e3e?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 8.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 8.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 8.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 9.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 8.49, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Potatoes 2kg",
+      "category": "Produce",
+      "subcategory": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 16.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 16.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 18.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 14.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 16.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Lettuce Fresh",
+      "category": "Produce",
+      "subcategory": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 14.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 12.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 16.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 11.99, "inStock": false, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 14.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Apples 1kg",
+      "category": "Produce",
+      "subcategory": "Fruit",
+      "image": "https://images.unsplash.com/photo-1560806674-9a308b1b776?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 22.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 24.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 26.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 19.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 23.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Bananas 1kg",
+      "category": "Produce",
+      "subcategory": "Fruit",
+      "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 18.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 19.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 21.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 17.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 18.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Oranges 1kg",
+      "category": "Produce",
+      "subcategory": "Fruit",
+      "image": "https://images.unsplash.com/photo-1557803104462-c9405a7daf0a?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 19.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 21.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 23.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 18.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 20.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Bread White Loaf",
+      "category": "Bakery",
+      "subcategory": "Bread",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 7.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 8.49, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 7.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 9.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 7.49, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Bread Whole Wheat Loaf",
+      "category": "Bakery",
+      "subcategory": "Bread",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 9.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 10.49, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 9.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 11.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 9.49, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Croissants 4 Pack",
+      "category": "Bakery",
+      "subcategory": "Pastries",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 24.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 26.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 24.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 28.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 23.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Rice 5kg",
+      "category": "Pantry",
+      "subcategory": "Grains",
+      "image": "https://images.unsplash.com/photo-1586985289688-cacf913bb194?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 79.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 84.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 82.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 89.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 75.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Pasta 500g",
+      "category": "Pantry",
+      "subcategory": "Grains",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 12.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 13.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 14.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 15.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 12.49, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Flour 2kg",
+      "category": "Pantry",
+      "subcategory": "Baking",
+      "image": "https://images.unsplash.com/photo-1585518419759-8b0b6e1e3e3e?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 18.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 19.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 20.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 21.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 18.49, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Sugar 2kg",
+      "category": "Pantry",
+      "subcategory": "Baking",
+      "image": "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 22.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 24.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 25.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 26.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 22.49, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Olive Oil 500ml",
+      "category": "Pantry",
+      "subcategory": "Oils",
+      "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 89.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 94.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 99.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 89.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 92.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Sunflower Oil 750ml",
+      "category": "Pantry",
+      "subcategory": "Oils",
+      "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=400&h=400&fit=crop",
+      "prices": [
+        { "store": "SPAR", "price": 34.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "store": "Checkers", "price": 36.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "store": "Pick n Pay", "price": 38.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "store": "Woolworths", "price": 39.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "store": "OK Foods", "price": 33.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    }
+  ]
+}

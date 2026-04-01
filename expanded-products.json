@@ -1,0 +1,407 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Full Cream Milk 1L",
+      "category": "Dairy",
+      "emoji": "🥛",
+      "prices": [
+        { "retailer": "SPAR", "price": 18.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 19.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 20.49, "inStock": false, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 21.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 17.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Full Cream Milk 2L",
+      "category": "Dairy",
+      "emoji": "🥛",
+      "prices": [
+        { "retailer": "SPAR", "price": 35.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 37.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 38.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 40.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 34.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Chicken Breast 1kg",
+      "category": "Meat",
+      "emoji": "🍗",
+      "prices": [
+        { "retailer": "SPAR", "price": 54.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 59.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 64.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 69.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 52.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bread White Loaf",
+      "category": "Bakery",
+      "emoji": "🍞",
+      "prices": [
+        { "retailer": "SPAR", "price": 7.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 8.49, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 7.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 9.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 7.49, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tomatoes 1kg",
+      "category": "Produce",
+      "emoji": "🍅",
+      "prices": [
+        { "retailer": "SPAR", "price": 12.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 11.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 14.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 9.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 13.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Eggs Dozen",
+      "category": "Dairy",
+      "emoji": "🥚",
+      "prices": [
+        { "retailer": "SPAR", "price": 24.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 24.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 26.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 28.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 23.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Butter 500g",
+      "category": "Dairy",
+      "emoji": "🧈",
+      "prices": [
+        { "retailer": "SPAR", "price": 42.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 44.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 42.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 48.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 41.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Rice 5kg",
+      "category": "Pantry",
+      "emoji": "🍚",
+      "prices": [
+        { "retailer": "SPAR", "price": 79.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 84.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 82.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 89.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 75.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Olive Oil 500ml",
+      "category": "Pantry",
+      "emoji": "🫒",
+      "prices": [
+        { "retailer": "SPAR", "price": 89.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 94.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 99.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 89.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 92.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Sprite Cooldrink 2L",
+      "category": "Beverages",
+      "emoji": "🥤",
+      "prices": [
+        { "retailer": "SPAR", "price": 24.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 24.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 26.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 27.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 23.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Coffee 200g",
+      "category": "Beverages",
+      "emoji": "☕",
+      "prices": [
+        { "retailer": "SPAR", "price": 89.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 94.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 99.99, "inStock": false, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 89.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 87.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Apples 1kg",
+      "category": "Produce",
+      "emoji": "🍎",
+      "prices": [
+        { "retailer": "SPAR", "price": 22.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 24.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 26.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 19.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 23.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Lettuce Fresh",
+      "category": "Produce",
+      "emoji": "🥬",
+      "prices": [
+        { "retailer": "SPAR", "price": 14.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 12.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 16.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 11.99, "inStock": false, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 14.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Beef Steak 500g",
+      "category": "Meat",
+      "emoji": "🥩",
+      "prices": [
+        { "retailer": "SPAR", "price": 89.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 89.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 99.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 109.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 85.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Fish Fillet 400g",
+      "category": "Meat",
+      "emoji": "🐟",
+      "prices": [
+        { "retailer": "SPAR", "price": 79.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 84.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 79.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 89.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 77.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Cheese 200g",
+      "category": "Dairy",
+      "emoji": "🧀",
+      "prices": [
+        { "retailer": "SPAR", "price": 32.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 34.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 36.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 38.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 31.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Yogurt 500ml",
+      "category": "Dairy",
+      "emoji": "🥛",
+      "prices": [
+        { "retailer": "SPAR", "price": 19.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 19.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 21.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 19.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 18.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Carrots 1kg",
+      "category": "Produce",
+      "emoji": "🥕",
+      "prices": [
+        { "retailer": "SPAR", "price": 11.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 11.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 13.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 9.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 12.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Onions 1kg",
+      "category": "Produce",
+      "emoji": "🧅",
+      "prices": [
+        { "retailer": "SPAR", "price": 8.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 8.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 8.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 9.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 8.49, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Potatoes 2kg",
+      "category": "Produce",
+      "emoji": "🥔",
+      "prices": [
+        { "retailer": "SPAR", "price": 16.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 16.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 18.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 14.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 16.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Pasta 500g",
+      "category": "Pantry",
+      "emoji": "🍝",
+      "prices": [
+        { "retailer": "SPAR", "price": 12.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 13.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 14.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 15.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 12.49, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Cereal 400g",
+      "category": "Pantry",
+      "emoji": "🥣",
+      "prices": [
+        { "retailer": "SPAR", "price": 34.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 36.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 38.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 34.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 33.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Peanut Butter 400g",
+      "category": "Pantry",
+      "emoji": "🥜",
+      "prices": [
+        { "retailer": "SPAR", "price": 28.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 28.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 31.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 32.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 27.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Honey 500ml",
+      "category": "Pantry",
+      "emoji": "🍯",
+      "prices": [
+        { "retailer": "SPAR", "price": 49.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 52.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 49.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 54.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 48.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Chocolate Bar",
+      "category": "Snacks",
+      "emoji": "🍫",
+      "prices": [
+        { "retailer": "SPAR", "price": 14.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 14.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 15.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 16.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 14.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Chips 150g",
+      "category": "Snacks",
+      "emoji": "🥔",
+      "prices": [
+        { "retailer": "SPAR", "price": 16.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 16.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 17.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 18.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 16.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Cookies 200g",
+      "category": "Snacks",
+      "emoji": "🍪",
+      "prices": [
+        { "retailer": "SPAR", "price": 19.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 19.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 21.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 22.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 19.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Ice Cream 500ml",
+      "category": "Frozen",
+      "emoji": "🍦",
+      "prices": [
+        { "retailer": "SPAR", "price": 24.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 26.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 28.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 24.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 23.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Frozen Pizza",
+      "category": "Frozen",
+      "emoji": "🍕",
+      "prices": [
+        { "retailer": "SPAR", "price": 34.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 34.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 36.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 38.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 33.99, "inStock": false, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Frozen Vegetables 500g",
+      "category": "Frozen",
+      "emoji": "🥦",
+      "prices": [
+        { "retailer": "SPAR", "price": 22.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 22.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 22.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 24.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 21.99, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Canned Beans 400g",
+      "category": "Pantry",
+      "emoji": "🫘",
+      "prices": [
+        { "retailer": "SPAR", "price": 9.99, "inStock": true, "lastUpdated": "2 hours ago" },
+        { "retailer": "Checkers", "price": 10.99, "inStock": true, "lastUpdated": "1 hour ago" },
+        { "retailer": "Pick n Pay", "price": 11.99, "inStock": true, "lastUpdated": "3 hours ago" },
+        { "retailer": "Woolworths", "price": 12.99, "inStock": true, "lastUpdated": "30 mins ago" },
+        { "retailer": "OK Foods", "price": 9.49, "inStock": true, "lastUpdated": "1 hour ago" }
+      ]
+    }
+  ]
+}

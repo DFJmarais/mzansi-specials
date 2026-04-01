@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Full Cream Milk 1L",
+      "imageUrl": "https://images.unsplash.com/photo-1585238341710-4b4e6a7dd188?w=400&h=400&fit=crop",
+      "source": "Clover Full Cream Milk"
+    },
+    {
+      "id": 2,
+      "name": "Rainbow Butter 500g",
+      "imageUrl": "https://images.unsplash.com/photo-1628840042765-356cda07f4ee?w=400&h=400&fit=crop",
+      "source": "Springbok Unsalted Butter"
+    },
+    {
+      "id": 3,
+      "name": "Fresh Tomatoes 1kg",
+      "imageUrl": "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
+      "source": "Fresh Tomatoes"
+    },
+    {
+      "id": 4,
+      "name": "Free Range Chicken Breast 500g",
+      "imageUrl": "https://images.unsplash.com/photo-1488459716781-6918f33427d7?w=400&h=400&fit=crop",
+      "source": "Free Range Chicken Breast"
+    },
+    {
+      "id": 5,
+      "name": "Sunlight Handwash Powder 3kg",
+      "imageUrl": "https://images.unsplash.com/photo-1585951237318-9ea5e175b891?w=400&h=400&fit=crop",
+      "source": "Sunlight Handwash Powder"
+    },
+    {
+      "id": 6,
+      "name": "All Gold Tomato Sauce 700ml",
+      "imageUrl": "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
+      "source": "All Gold Tomato Sauce"
+    },
+    {
+      "id": 7,
+      "name": "Sprite Cooldrink 2L",
+      "imageUrl": "https://images.unsplash.com/photo-1554866585-acbb2f46b34c?w=400&h=400&fit=crop",
+      "source": "Sprite 2L Bottle"
+    },
+    {
+      "id": 8,
+      "name": "Nescafé Coffee 200g",
+      "imageUrl": "https://images.unsplash.com/photo-1559056199-641a0ac8b3f4?w=400&h=400&fit=crop",
+      "source": "Nescafé Classic Coffee"
+    },
+    {
+      "id": 9,
+      "name": "Bread White Loaf",
+      "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop",
+      "source": "White Bread Loaf"
+    },
+    {
+      "id": 10,
+      "name": "Eggs Dozen",
+      "imageUrl": "https://images.unsplash.com/photo-1582722872981-82a18b94e22b?w=400&h=400&fit=crop",
+      "source": "Eggs Dozen Carton"
+    },
+    {
+      "id": 11,
+      "name": "Rice 5kg",
+      "imageUrl": "https://images.unsplash.com/photo-1586985289688-cacf913bb194?w=400&h=400&fit=crop",
+      "source": "Rice 5kg Bag"
+    },
+    {
+      "id": 12,
+      "name": "Olive Oil 500ml",
+      "imageUrl": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=400&h=400&fit=crop",
+      "source": "Olive Oil 500ml"
+    }
+  ]
+}
